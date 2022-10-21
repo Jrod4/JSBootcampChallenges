@@ -1,7 +1,7 @@
 /* eslint-disable arrow-body-style */
 /* eslint-disable consistent-return */
 function max() {
-
+return 10
 }
 
 function addUnknown() {
