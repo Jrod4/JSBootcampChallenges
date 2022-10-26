@@ -21,12 +21,12 @@ describe('doesInclude', () => {
   });
 
   it('returns false if the string does not include the character', () => {
-    const returnedValue = firstCharacter('today', 'z');
+    const returnedValue = doesInclude('today', 'z');
     expect(returnedValue).to.equal(false);
   });
 });
 
-describe('isPalindrome', () => {
+describe.only('isPalindrome', () => {
   it('is a function', () => {
     expect(typeof isPalindrome).to.equal('function');
   });
