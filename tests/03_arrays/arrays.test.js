@@ -26,7 +26,7 @@ describe('multiply', () => {
   });
 });
 
-describe('includesCopy', () => {
+describe.only('includesCopy', () => {
   it('is a function', () => {
     expect(typeof includesCopy).to.equal('function');
   });
