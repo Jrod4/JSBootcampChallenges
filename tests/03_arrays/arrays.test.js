@@ -26,7 +26,7 @@ describe('multiply', () => {
   });
 });
 
-describe.only('includesCopy', () => {
+describe('includesCopy', () => {
   it('is a function', () => {
     expect(typeof includesCopy).to.equal('function');
   });
@@ -107,7 +107,7 @@ describe('inventory', () => {
   });
 });
 
-describe('joiner', () => {
+describe.only('joiner', () => {
   it('is a function', () => {
     expect(typeof joiner).to.equal('function');
   });
